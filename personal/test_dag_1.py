@@ -10,12 +10,9 @@ import psycopg2
 
 # 1. open weather api에서 값 받아옴
 # 2. snowflake에 값 insert
-# 3. 
-dag = DAG(
-  dag_id = 'openweather_api'
-  
-)
+# 3. commit possible? 
 
-def test (**conf):
+
+
   
   
