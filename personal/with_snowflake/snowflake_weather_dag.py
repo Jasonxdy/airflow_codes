@@ -16,11 +16,6 @@ import logging
 # import psycopg2
 import json
 
-# 1. open weather api에서 값 받아옴
-# -> 일단 하루치만 받아와서 parsing 후 넣기
-# 2. snowflake에 값 insert
-
-
 #timezone 설정
 KST = pendulum.timezone("Asia/Seoul")
 
